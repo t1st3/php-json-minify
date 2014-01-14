@@ -1,31 +1,39 @@
 <?php
 /**
- * URL: https://github.com/jonrandoem/JSONMin
- * Author: jonrandoem
- * Version: 0.1.0
- * License MIT: https://github.com/jonrandoem/JSONMin/blob/master/LICENSE
+ * php-json-min
+ * @package JSONMin
+ * @version 0.1.0
+ * @link https://github.com/jonrandoem/JSONMin
+ * @author jonrandoem <https://github.com/jonrandoem>
+ * @license https://github.com/jonrandoem/JSONMin/blob/master/LICENSE MIT
+ * @copyright Copyright (c) 2014, jonrandoem
+ * 
  * 
  * Based on JSON.minify (https://github.com/getify/JSON.minify) by Kyle Simspon (https://github.com/getify)
  * JSON.minify is released under MIT license.
+ *
  */
 
 namespace jonrandoem\JSONMin;
 
 /**
- * JSONMin class
- * @package JSONMin
+ * The JSONMin class
+ * @author jonrandoem <https://github.com/jonrandoem>
+ * @since 0.1.0
  */
 class JSONMin {
 
 	/**
 	 * The original JSON string
-	 * @property string $original_json The original JSON string
+	 * @var string $original_json The original JSON string
+	 * @since 0.1.0
 	 */
 	protected $original_json = '';
 
 	/**
 	 * The minified JSON string
-	 * @property string $minified_json The minified JSON string
+	 * @var string $minified_json The minified JSON string
+	 * @since 0.1.0
 	 */
 	protected $minified_json = '';
 
@@ -34,6 +42,7 @@ class JSONMin {
 	 * @name __construct
 	 * @param string $json Some JSON to minify
 	 * @since 0.1.0
+	 * @return object the JSONMin object
 	 */
 	public function __construct ( $json ) {
 		$this->original_json = $json;
@@ -43,8 +52,8 @@ class JSONMin {
 	/**
 	 * Get the minified JSON
 	 * @name getMin
-	 * @param string $json Some JSON to minify
 	 * @since 0.1.0
+	 * @return string Minified JSON string
 	 */
 	public function getMin ( ) {
 		$this->minified_json = $this::minify($this->original_json);
@@ -52,10 +61,23 @@ class JSONMin {
 	}
 
 	/**
+	 * Print the minified JSON
+	 * @name printMin
+	 * @since 0.1.0
+	 * @return object the JSONMin object
+	 */
+	public function printMin ( ) {
+		echo $this->getMin();
+		return $this;
+	}
+
+	/**
 	 * Static minify function
 	 * @name minify
 	 * @param string $json Some JSON to minify
 	 * @since 0.1.0
+	 * @return string Minified JSON string
+	 * @static
 	 */
 	public static function minify ($json) {
 		$tokenizer = "/\"|(\/\*)|(\*\/)|(\/\/)|\n|\r/";

@@ -74,6 +74,9 @@ use jonrandoem\JSONMin\JSONMin as jsonMin;
 $a = jsonMin::minify('{"a": "b"}');
 echo $a;
 
+$b = new jsonMin('{"c": "d"}');
+$b->printMin();
+
 }
 ?>
 ```

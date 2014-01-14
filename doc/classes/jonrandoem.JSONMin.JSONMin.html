@@ -139,28 +139,28 @@
                                 <div class="accordion" style="margin-bottom: 0">
         <div class="accordion-group">
             <div class="accordion-heading">
-                                    <a class="accordion-toggle " data-toggle="collapse" data-target="#namespace-944221769"></a>
+                                    <a class="accordion-toggle " data-toggle="collapse" data-target="#namespace-347607569"></a>
                                 <a href="../namespaces/default.html" style="margin-left: 30px; padding-left: 0">\</a>
             </div>
-            <div id="namespace-944221769" class="accordion-body collapse in">
+            <div id="namespace-347607569" class="accordion-body collapse in">
                 <div class="accordion-inner">
 
                                                     <div class="accordion" style="margin-bottom: 0">
         <div class="accordion-group">
             <div class="accordion-heading">
-                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-target="#namespace-2064824541"></a>
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-target="#namespace-757038678"></a>
                                 <a href="../namespaces/jonrandoem.html" style="margin-left: 30px; padding-left: 0">jonrandoem</a>
             </div>
-            <div id="namespace-2064824541" class="accordion-body collapse ">
+            <div id="namespace-757038678" class="accordion-body collapse ">
                 <div class="accordion-inner">
 
                                                     <div class="accordion" style="margin-bottom: 0">
         <div class="accordion-group">
             <div class="accordion-heading">
-                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-target="#namespace-1437605724"></a>
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-target="#namespace-1761876602"></a>
                                 <a href="../namespaces/jonrandoem.JSONMin.html" style="margin-left: 30px; padding-left: 0">JSONMin</a>
             </div>
-            <div id="namespace-1437605724" class="accordion-body collapse ">
+            <div id="namespace-1761876602" class="accordion-body collapse ">
                 <div class="accordion-inner">
 
                     
@@ -200,7 +200,7 @@
                     <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal"><i class="icon-code"></i></a>
 
                     <h1><small>\jonrandoem\JSONMin</small>JSONMin</h1>
-                    <p><em>JSONMin class</em></p>
+                    <p><em>The JSONMin class</em></p>
                     
 
                     <section id="summary">
@@ -220,6 +220,7 @@
                             <section class="span4">
                                                                     <a href="../classes/jonrandoem.JSONMin.JSONMin.html#method___construct" class="">__construct()</a><br />
                                                                     <a href="../classes/jonrandoem.JSONMin.JSONMin.html#method_getMin" class="">getMin()</a><br />
+                                                                    <a href="../classes/jonrandoem.JSONMin.JSONMin.html#method_printMin" class="">printMin()</a><br />
                                                                     <a href="../classes/jonrandoem.JSONMin.JSONMin.html#method_minify" class="">minify()</a><br />
                                                             </section>
                             <section class="span4">
@@ -276,6 +277,22 @@
                     <table class="table table-condensed">
                                             <tr>
                             <th>
+                                author
+                            </th>
+                            <td>
+                                                                    <p>jonrandoem <a href="https://github.com/jonrandoem">https://github.com/jonrandoem</a></p>
+                                                            </td>
+                        </tr>
+                                            <tr>
+                            <th>
+                                since
+                            </th>
+                            <td>
+                                                                    
+                                                            </td>
+                        </tr>
+                                            <tr>
+                            <th>
                                 todo
                             </th>
                             <td>
@@ -299,11 +316,13 @@
             <a id="property_original_json" name="property_original_json" class="anchor"></a>
             <article class="property">
                 <h3 class="protected ">$original_json</h3>
-                <pre class="signature">$original_json</pre>
+                <pre class="signature">$original_json : string</pre>
                 <p><em>The original JSON string</em></p>
                 
 
-                            </article>
+                                <h4>Type</h4>
+                string
+                &mdash; The original JSON string                            </article>
         </div>
         <aside class="span4 detailsbar">
             <h1><i class="icon-arrow-down"></i></h1>
@@ -313,10 +332,10 @@
             <table class="table table-condensed">
                                     <tr>
                         <th>
-                            property
+                            since
                         </th>
                         <td>
-                                                            <p>The original JSON string</p>
+                                                            
                                                     </td>
                     </tr>
                                     <tr>
@@ -335,11 +354,13 @@
             <a id="property_minified_json" name="property_minified_json" class="anchor"></a>
             <article class="property">
                 <h3 class="protected ">$minified_json</h3>
-                <pre class="signature">$minified_json</pre>
+                <pre class="signature">$minified_json : string</pre>
                 <p><em>The minified JSON string</em></p>
                 
 
-                            </article>
+                                <h4>Type</h4>
+                string
+                &mdash; The minified JSON string                            </article>
         </div>
         <aside class="span4 detailsbar">
             <h1><i class="icon-arrow-down"></i></h1>
@@ -349,10 +370,10 @@
             <table class="table table-condensed">
                                     <tr>
                         <th>
-                            property
+                            since
                         </th>
                         <td>
-                                                            <p>The minified JSON string</p>
+                                                            
                                                     </td>
                     </tr>
                                     <tr>
@@ -379,7 +400,7 @@
             <article class="method">
                 <h3 class="public ">__construct()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">__construct(string <span class="argument">$json</span>)</pre>
+                <pre class="signature" style="margin-right: 54px;">__construct(string <span class="argument">$json</span>) : object</pre>
                 <p><em>Constructor</em></p>
                 
 
@@ -393,7 +414,10 @@
                                             </table>
                 
                 
-                            </article>
+                                    <h4>Returns</h4>
+                    object
+                                            &mdash; <p>the JSONMin object</p>
+                                                </article>
         </div>
         <aside class="span4 detailsbar">
             <h1><i class="icon-arrow-down"></i></h1>
@@ -434,13 +458,16 @@
             <article class="method">
                 <h3 class="public ">getMin()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">getMin()</pre>
+                <pre class="signature" style="margin-right: 54px;">getMin() : string</pre>
                 <p><em>Get the minified JSON</em></p>
                 
 
                 
                 
-                            </article>
+                                    <h4>Returns</h4>
+                    string
+                                            &mdash; <p>Minified JSON string</p>
+                                                </article>
         </div>
         <aside class="span4 detailsbar">
             <h1><i class="icon-arrow-down"></i></h1>
@@ -477,11 +504,61 @@
 
                                     <div class="row-fluid">
         <div class="span8 content class">
+            <a id="method_printMin" name="method_printMin" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">printMin()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">printMin() : object</pre>
+                <p><em>Print the minified JSON</em></p>
+                
+
+                
+                
+                                    <h4>Returns</h4>
+                    object
+                                            &mdash; <p>the JSONMin object</p>
+                                                </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            name
+                        </th>
+                        <td>
+                                                                                            <p>printMin</p>
+                                                    </td>
+                    </tr>
+                                    <tr>
+                        <th>
+                            since
+                        </th>
+                        <td>
+                                                            0.1.0                                
+                                                    </td>
+                    </tr>
+                                    <tr>
+                        <th>
+                            todo
+                        </th>
+                        <td>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
             <a id="method_minify" name="method_minify" class="anchor"></a>
             <article class="method">
                 <h3 class="public ">minify()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">minify(string <span class="argument">$json</span>)</pre>
+                <pre class="signature" style="margin-right: 54px;">minify(string <span class="argument">$json</span>) : string</pre>
                 <p><em>Static minify function</em></p>
                 
 
@@ -495,7 +572,10 @@
                                             </table>
                 
                 
-                            </article>
+                                    <h4>Returns</h4>
+                    string
+                                            &mdash; <p>Minified JSON string</p>
+                                                </article>
         </div>
         <aside class="span4 detailsbar">
             <h1><i class="icon-arrow-down"></i></h1>
@@ -518,6 +598,14 @@
                         </th>
                         <td>
                                                             0.1.0                                
+                                                    </td>
+                    </tr>
+                                    <tr>
+                        <th>
+                            static
+                        </th>
+                        <td>
+                                                                                            
                                                     </td>
                     </tr>
                                     <tr>
@@ -581,7 +669,7 @@
                 <section class="span10 offset1">
                     <hr />
                     Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and authored
-                    on January 14th, 2014 at 17:39.
+                    on January 14th, 2014 at 21:11.
                 </section>
             </section>
         </section>
