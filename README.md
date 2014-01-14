@@ -1,6 +1,10 @@
 php-json-minify
 ==============
 
+[![Latest Stable Version](https://poser.pugx.org/jonrandoem/php-json-minify/v/stable.png)](https://packagist.org/packages/jonrandoem/php-json-minify)
+[![Build Status](https://travis-ci.org/jonrandoem/php-json-minify.png?branch=master)](https://travis-ci.org/jonrandoem/php-json-minify)
+
+
 About
 --------------
 
