@@ -77,7 +77,6 @@ echo $a;
 $b = new jsonMin('{"c": "d"}');
 $b->printMin();
 
-}
 ?>
 ```
 
