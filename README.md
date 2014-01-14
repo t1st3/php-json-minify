@@ -59,6 +59,20 @@ The build process will run the following tasks:
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 
+Usage
+--------------
+
+```
+<?php
+require_once(dirname(__FILE__) . '/src/jonrandoem/JSONMin/JSONMin.php');
+use jonrandoem\JSONMin\JSONMin as jsonMin;
+
+$a = jsonMin::minify('{"a": "b"}');
+echo $a;
+
+}
+?>
+```
 
 
 
@@ -66,6 +80,8 @@ Credits
 --------------
 
 php-json-minify was initiated with [generator-composer](https://github.com/T1st3/generator-composer), a [Yeoman](http://yeoman.io) generator that builds a PHP Composer project.
+
+This project is based on JSON.minify (https://github.com/getify/JSON.minify) by Kyle Simspon (https://github.com/getify), which is released under the MIT license.
 
 This project uses the following as development dependencies:
 
