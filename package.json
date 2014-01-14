@@ -1,0 +1,20 @@
+{
+	"name": "php-json-minify",
+	"version": "0.1.0",
+	"author": "jonrandoem",
+	"homepage": "https://github.com/jonrandoem/php-json-minify",
+	"bugs": "https://github.com/jonrandoem/php-json-minify/issues",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/jonrandoem/php-json-minify.git"
+	},
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.2",
+    "grunt-shell": "~0.6.1",
+		"grunt-phplint": "~0.0.5",
+		"grunt-phpunit": "~0.3.2"
+	}
+}
