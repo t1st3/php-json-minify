@@ -10,9 +10,13 @@ About
 
 URL: [https://github.com/jonrandoem/php-json-minify](https://github.com/jonrandoem/php-json-minify)
 
-Author: jonrandoem
+Author: [jonrandoem](https://github.com/jonrandoem)
 
-Version: 0.1.0
+
+This JSON minifier written in PHP is based on the [JSON.minify](https://github.com/getify/JSON.minify) script by [Kyle Simspon](https://github.com/getify).
+
+This minifier also removes comments from JSON. While the authors of php-json-minify and JSON.minify do not encourage the use of comments in JSON, they are glad to provide you a way to remove those comments anyway! 
+See original author's [blog post](http://blog.getify.com/json-comments/) if you want to know more.
 
 
 
@@ -71,12 +75,17 @@ Usage
 require_once(dirname(__FILE__) . '/src/jonrandoem/JSONMin/JSONMin.php');
 use jonrandoem\JSONMin\JSONMin as jsonMin;
 
+// Use static method
 $a = jsonMin::minify('{"a": "b"}');
 echo $a;
 
+// get the minified JSON in a string
 $b = new jsonMin('{"c": "d"}');
-$b->printMin();
+echo $b->getMin();
 
+// prints the minifed JSON
+$c = new jsonMin('{"e": "f"}');
+$b->printMin();
 ?>
 ```
 
@@ -87,7 +96,7 @@ Credits
 
 php-json-minify was initiated with [generator-composer](https://github.com/T1st3/generator-composer), a [Yeoman](http://yeoman.io) generator that builds a PHP Composer project.
 
-This project is based on JSON.minify (https://github.com/getify/JSON.minify) by Kyle Simspon (https://github.com/getify), which is released under the MIT license.
+This project is based on [JSON.minify](https://github.com/getify/JSON.minify) by [Kyle Simspon](https://github.com/getify), which is released under the MIT license.
 
 This project uses the following as development dependencies:
 
