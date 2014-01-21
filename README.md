@@ -45,6 +45,14 @@ Then, with Grunt, you can install Composer, PhpDocumentor, PhpUnit and PhpCPD lo
 grunt init
 ```
 
+Then, you can install PhpDocumentor, PhpUnit and PhpCPD locally. Just run once:
+
+```
+php composer.phar install -v
+php composer.phar require -v --dev "phpunit/phpunit:3.*"
+```
+
+Finally, you should also install the PHP extension named Xdebug, which will be used by PhpUnit for code coverage.
 
 
 
