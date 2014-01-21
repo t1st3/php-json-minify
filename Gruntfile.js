@@ -1,5 +1,12 @@
 'use strict';
 module.exports = function (grunt) {
+	
+	require('load-grunt-tasks')(grunt, {
+		scope: 'devDependencies',
+		config: 'package.json',
+		pattern: ['grunt-*']
+	});
+	
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		shell: {
@@ -60,12 +67,6 @@ module.exports = function (grunt) {
 			}
 		}
   });
-
-	// Load tasks
-	grunt.loadNpmTasks('grunt-shell');
-	grunt.loadNpmTasks('grunt-phpunit');
-	grunt.loadNpmTasks('grunt-phplint');
-	grunt.loadNpmTasks('grunt-version');
 
 	// Register tasks
 	grunt.registerTask('init', [
