@@ -1,8 +1,8 @@
 'use strict';
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
-    shell: {
+		shell: {
 			installComposer: {
 				command: 'curl -sS https://getcomposer.org/installer | php',
 				options: {
@@ -44,13 +44,28 @@ module.exports = function(grunt) {
 			},
 			good: ["src/jonrandoem/JSONMin/*.php"],
 			bad: ["src/jonrandoem/JSONMin/*.php"]
-    }
+		},
+		version: {
+			php: {
+				options: {
+					prefix: '@version\\s*'
+				},
+				src: ['src/**/*.php']
+			},
+			json: {
+				options: {
+					prefix: '"version":\\s"*'
+				},
+				src: ['composer.json']
+			}
+		}
   });
 
 	// Load tasks
 	grunt.loadNpmTasks('grunt-shell');
 	grunt.loadNpmTasks('grunt-phpunit');
 	grunt.loadNpmTasks('grunt-phplint');
+	grunt.loadNpmTasks('grunt-version');
 
 	// Register tasks
 	grunt.registerTask('init', [
@@ -58,6 +73,8 @@ module.exports = function(grunt) {
 	]);
 	
 	grunt.registerTask('build', [
+		'version:php',
+		'version:json',
 		'phplint:good',
 		'phpunit',
 		'shell:phpdoc',

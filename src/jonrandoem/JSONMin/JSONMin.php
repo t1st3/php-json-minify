@@ -2,7 +2,7 @@
 /**
  * php-json-min
  * @package JSONMin
- * @version 0.1.0
+ * @version 0.2.0
  * @link https://github.com/jonrandoem/JSONMin
  * @author jonrandoem <https://github.com/jonrandoem>
  * @license https://github.com/jonrandoem/JSONMin/blob/master/LICENSE MIT
