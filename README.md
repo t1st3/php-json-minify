@@ -1,6 +1,7 @@
 php-json-minify
 ==============
 
+[![Dependency Status](https://www.versioneye.com/user/projects/52f145d9ec1375e9b00001ee/badge.png)](https://www.versioneye.com/user/projects/52f145d9ec1375e9b00001ee)
 [![Latest Stable Version](https://poser.pugx.org/jonrandoem/php-json-minify/v/stable.png)](https://packagist.org/packages/jonrandoem/php-json-minify)
 [![Build Status](https://travis-ci.org/jonrandoem/php-json-minify.png?branch=master)](https://travis-ci.org/jonrandoem/php-json-minify)
 
