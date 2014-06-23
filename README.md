@@ -18,6 +18,11 @@ This JSON minifier written in PHP is based on the [JSON.minify](https://github.c
 This minifier also removes comments from JSON. While the authors of php-json-minify and JSON.minify do not encourage the use of comments in JSON, they are glad to provide you a way to remove those comments anyway! 
 See original author's [blog post](http://blog.getify.com/json-comments/) if you want to know more.
 
+See some stats:
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jonrandoem/php-json-minify/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+
 
 
 Build dependencies
@@ -53,6 +58,8 @@ php composer.phar require -v --dev "phpunit/phpunit:3.*"
 ```
 
 Finally, you should also install the PHP extension named Xdebug, which will be used by PhpUnit for code coverage.
+
+[![Dependency Status](https://www.versioneye.com/user/projects/52f145d9ec1375e9b00001ee/badge.png)](https://www.versioneye.com/user/projects/52f145d9ec1375e9b00001ee)
 
 
 
