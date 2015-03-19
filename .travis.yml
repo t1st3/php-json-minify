@@ -7,5 +7,6 @@ php:
 before_script:
   - wget http://getcomposer.org/composer.phar
   - php composer.phar install
+  - npm install
 
 script: phpunit --configuration ./travis-ci.xml
