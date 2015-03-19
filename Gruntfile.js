@@ -19,7 +19,7 @@ module.exports = function (grunt) {
         }
       },
       phpdoc: {
-        command: 'vendor/bin/phpdoc -d src/jonrandoem/JSONMin/ -t doc',
+        command: 'vendor/bin/phpdoc -d src/t1st3/JSONMin/ -t doc',
         options: {
           stdout: true
         }
@@ -51,8 +51,8 @@ module.exports = function (grunt) {
         spawnLimit: 10,
         swapPath: "_lint/tmp"
       },
-      good: ["src/jonrandoem/JSONMin/*.php"],
-      bad: ["src/jonrandoem/JSONMin/*.php"]
+      good: ["src/t1st3/JSONMin/*.php"],
+      bad: ["src/t1st3/JSONMin/*.php"]
     },
     version: {
       php: {

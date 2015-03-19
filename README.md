@@ -1,26 +1,22 @@
 php-json-minify
 ==============
 
-[![Latest Stable Version](https://poser.pugx.org/jonrandoem/php-json-minify/v/stable.png)](https://packagist.org/packages/jonrandoem/php-json-minify)
-[![Build Status](https://travis-ci.org/jonrandoem/php-json-minify.png?branch=master)](https://travis-ci.org/jonrandoem/php-json-minify)
+[![Packagist version](https://img.shields.io/packagist/v/t1st3/php-json-minify.svg)](https://packagist.org/packages/t1st3/php-json-minify)
+[![Build Status](https://img.shields.io/travis/T1st3/php-json-minify.svg)](https://travis-ci.org/T1st3/php-json-minify)
 
 
 About
 --------------
 
-URL: [https://github.com/jonrandoem/php-json-minify](https://github.com/jonrandoem/php-json-minify)
+URL: [https://github.com/T1st3/php-json-minify](https://github.com/T1st3/php-json-minify)
 
-Author: [jonrandoem](https://github.com/jonrandoem)
+Author: [T1st3](https://github.com/T1st3)
 
 
 This JSON minifier written in PHP is based on the [JSON.minify](https://github.com/getify/JSON.minify) script by [Kyle Simspon](https://github.com/getify).
 
 This minifier also removes comments from JSON. While the authors of php-json-minify and JSON.minify do not encourage the use of comments in JSON, they are glad to provide you a way to remove those comments anyway! 
 See original author's [blog post](http://blog.getify.com/json-comments/) if you want to know more.
-
-See some stats:
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jonrandoem/php-json-minify/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 
 
@@ -87,8 +83,8 @@ Usage
 
 ```
 <?php
-require_once(dirname(__FILE__) . '/src/jonrandoem/JSONMin/JSONMin.php');
-use jonrandoem\JSONMin\JSONMin as jsonMin;
+require_once(dirname(__FILE__) . '/src/t1st3/JSONMin/JSONMin.php');
+use t1st3\JSONMin\JSONMin as jsonMin;
 
 // Use static method
 $a = jsonMin::minify('{"a": "b"}');
@@ -123,4 +119,4 @@ This project uses the following as development dependencies:
 License
 --------------
 
-[License](https://github.com/jonrandoem/php-json-minify/blob/master/LICENSE)
+[License](https://github.com/T1st3/php-json-minify/blob/master/LICENSE)

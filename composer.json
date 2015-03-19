@@ -1,34 +1,34 @@
 {
-	"name": "jonrandoem/php-json-minify",
-	"version": "0.2.2",
-	"homepage": "https://github.com/jonrandoem/php-json-minify",
-	"description": "",
-	"keywords": [
-		"php"
-	],
-	"authors": [
-		{
-			"name": "jonrandoem",
-			"homepage": "https://github.com/jonrandoem",
-			"role": "Developer"
-		}
-	],
-	"support": {
-		"issues": "https://github.com/jonrandoem/php-json-minify/issues",
-		"source": "https://github.com/jonrandoem/php-json-minify"
-	},
-	"license": "MIT",
-	"type": "library",
-	"require": {
-		"php": ">=5.3.0",
-		"monolog/monolog": "1.*",
-		"phpdocumentor/phpdocumentor": "2.*",
-		"phpunit/phpunit": "3.*",
-		"sebastian/phpcpd": "2.*"
-	},
-	"require-dev": {
-		"phpdocumentor/phpdocumentor": "2.*",
-		"phpunit/phpunit": "3.*",
-		"sebastian/phpcpd": "2.*"
-	}
+  "name": "t1st3/php-json-minify",
+  "version": "0.2.3",
+  "homepage": "https://github.com/T1st3/php-json-minify",
+  "description": "",
+  "keywords": [
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "T1st3",
+      "homepage": "https://github.com/T1st3",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/T1st3/php-json-minify/issues",
+    "source": "https://github.com/T1st3/php-json-minify"
+  },
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.3.0",
+    "monolog/monolog": "1.*",
+    "phpdocumentor/phpdocumentor": "2.*",
+    "phpunit/phpunit": "4.*",
+    "sebastian/phpcpd": "2.*"
+  },
+  "require-dev": {
+    "phpdocumentor/phpdocumentor": "2.*",
+    "phpunit/phpunit": "4.*",
+    "sebastian/phpcpd": "2.*"
+  }
 }
