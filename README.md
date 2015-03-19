@@ -55,7 +55,7 @@ php composer.phar require -v --dev "phpunit/phpunit:3.*"
 
 Finally, you should also install the PHP extension named Xdebug, which will be used by PhpUnit for code coverage.
 
-[![Dependency Status](https://www.versioneye.com/user/projects/52f145d9ec1375e9b00001ee/badge.png)](https://www.versioneye.com/user/projects/52f145d9ec1375e9b00001ee)
+[![Dependency Status](https://www.versioneye.com/user/projects/52f145d9ec1375e9b00001ee/badge.png)](https://www.versioneye.com/php/t1st3:php-json-minify)
 
 
 
