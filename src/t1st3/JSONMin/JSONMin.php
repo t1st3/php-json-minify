@@ -2,7 +2,7 @@
 /**
 * php-json-minify
 * @package JSONMin
-* @version 0.2.5
+* @version 0.2.6
 * @link https://github.com/T1st3/php-json-minify
 * @author T1st3 <https://github.com/T1st3>
 * @license https://github.com/T1st3/php-json-minify/blob/master/LICENSE MIT
