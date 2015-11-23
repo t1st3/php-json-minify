@@ -40,13 +40,13 @@ npm install -g grunt-cli
 ```
 
 
-Then, with Grunt, you can install Composer, PhpDocumentor, PhpUnit and PhpCPD locally. Just run once:
+Then, with Grunt, you can install Composer. Just run once:
 
 ```
 grunt init
 ```
 
-Then, you can install PhpDocumentor, PhpUnit and PhpCPD locally. Just run once:
+Then, you can install `require-dev` dependencies (PhpDocumentor, PhpUnit and PhpCPD) locally. Just run once:
 
 ```
 php composer.phar install -v
