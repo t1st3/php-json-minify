@@ -49,7 +49,7 @@ module.exports = function (grunt) {
           "-l": null
         },
         spawnLimit: 10,
-        swapPath: "_lint/tmp"
+        swapPath: "./"
       },
       good: ["src/t1st3/JSONMin/*.php"],
       bad: ["src/t1st3/JSONMin/*.php"]
