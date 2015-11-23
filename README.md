@@ -26,7 +26,7 @@ Build dependencies
 
 In order to build your generated Composer project from its source, you will need Grunt and PHP on the command line.
 
-So, you must install PHP5 on your system on your command line. Test it:
+So, you must install PHP 5.6 on your system. Test it on your command line:
 
 ```
 php --help
