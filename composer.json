@@ -24,7 +24,7 @@
   },
   "require-dev": {
     "phpdocumentor/phpdocumentor": "2.*",
-    "phpunit/phpunit": "4.*",
+    "phpunit/phpunit": "5.*",
     "sebastian/phpcpd": "2.*"
   }
 }
