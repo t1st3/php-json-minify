@@ -32,6 +32,8 @@ So, you must install PHP5 on your system on your command line. Test it:
 php --help
 ```
 
+Note that the extension `ext-dom` is required by dev-dependencies. On Debian/Ubuntu, this extension is shipped by default with regular PHP installation. On Fedroa/CentOS, you'll have to install the extension separately (`yum install php-xml`).
+
 
 To install Grunt globally on the command line (and run the above build task), run:
 
