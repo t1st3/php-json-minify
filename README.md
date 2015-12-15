@@ -8,11 +8,6 @@ php-json-minify
 About
 --------------
 
-URL: [https://github.com/T1st3/php-json-minify](https://github.com/T1st3/php-json-minify)
-
-Author: [T1st3](https://github.com/T1st3)
-
-
 This JSON minifier written in PHP is based on the [JSON.minify](https://github.com/getify/JSON.minify) script by [Kyle Simspon](https://github.com/getify).
 
 This minifier also removes comments from JSON. While the authors of php-json-minify and JSON.minify do not encourage the use of comments in JSON, they are glad to provide you a way to remove those comments anyway! 
