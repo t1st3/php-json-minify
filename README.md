@@ -3,6 +3,7 @@ php-json-minify
 
 [![Packagist version](https://img.shields.io/packagist/v/t1st3/php-json-minify.svg)](https://packagist.org/packages/t1st3/php-json-minify)
 [![Build Status](https://img.shields.io/travis/T1st3/php-json-minify.svg)](https://travis-ci.org/T1st3/php-json-minify)
+[![Dependency Status](https://www.versioneye.com/user/projects/550b4d4aa80b5fba79000153/badge.svg?style=flat)](https://www.versioneye.com/user/projects/550b4d4aa80b5fba79000153)
 
 
 About
@@ -50,8 +51,6 @@ php composer.phar install -v
 ```
 
 Finally, you should also install the PHP extension named Xdebug, which will be used by PhpUnit for code coverage.
-
-[![Dependency Status](https://www.versioneye.com/user/projects/52f145d9ec1375e9b00001ee/badge.png)](https://www.versioneye.com/php/t1st3:php-json-minify)
 
 
 
