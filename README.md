@@ -4,6 +4,7 @@ php-json-minify
 [![Packagist version](https://img.shields.io/packagist/v/t1st3/php-json-minify.svg)](https://packagist.org/packages/t1st3/php-json-minify)
 [![Build Status](https://img.shields.io/travis/T1st3/php-json-minify.svg)](https://travis-ci.org/T1st3/php-json-minify)
 [![Dependency Status](https://www.versioneye.com/user/projects/550b4d4aa80b5fba79000153/badge.svg?style=flat)](https://www.versioneye.com/user/projects/550b4d4aa80b5fba79000153)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/t1st3/php-json-minify.svg)](http://isitmaintained.com/project/t1st3/php-json-minify "Percentage of issues still open")
 
 
 About
