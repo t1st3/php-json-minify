@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git://github.com/T1st3/php-json-minify.git"
   },
+  "license": "MIT",
   "engines": {
     "node": ">= 0.10.0"
   },
