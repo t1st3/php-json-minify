@@ -5,7 +5,7 @@
 * @version 0.4.0
 * @link https://github.com/T1st3/php-json-minify
 * @author T1st3 <https://github.com/T1st3>
-* @license https://github.com/T1st3/php-json-minify/blob/master/LICENSE MIT
+* @license https://github.com/T1st3/php-json-minify/blob/master/LICENSE.md MIT
 * @copyright Copyright (c) 2014, T1st3
 * 
 * 

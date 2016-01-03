@@ -115,4 +115,4 @@ This project uses the following as development dependencies:
 License
 --------------
 
-[License](https://github.com/T1st3/php-json-minify/blob/master/LICENSE)
+[License](https://github.com/T1st3/php-json-minify/blob/master/LICENSE.md)
