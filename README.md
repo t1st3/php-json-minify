@@ -116,3 +116,4 @@ License
 --------------
 
 [License](https://github.com/T1st3/php-json-minify/blob/master/LICENSE.md)
+
