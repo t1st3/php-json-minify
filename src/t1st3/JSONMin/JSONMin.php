@@ -3,10 +3,10 @@
 * php-json-minify
 * @package JSONMin
 * @version 0.4.0
-* @link https://github.com/T1st3/php-json-minify
-* @author T1st3 <https://github.com/T1st3>
-* @license https://github.com/T1st3/php-json-minify/blob/master/LICENSE.md MIT
-* @copyright Copyright (c) 2014, T1st3
+* @link https://github.com/t1st3/php-json-minify
+* @author t1st3 <https://github.com/t1st3>
+* @license https://github.com/t1st3/php-json-minify/blob/master/LICENSE.md MIT
+* @copyright Copyright (c) 2014, t1st3
 * 
 * 
 * Based on JSON.minify (https://github.com/getify/JSON.minify) by Kyle Simspon (https://github.com/getify)
@@ -18,7 +18,7 @@ namespace t1st3\JSONMin;
 
 /**
 * The JSONMin class
-* @author T1st3 <https://github.com/T1st3>
+* @author t1st3 <https://github.com/t1st3>
 * @since 0.1.0
 */
 class JSONMin {

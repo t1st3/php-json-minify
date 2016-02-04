@@ -2,7 +2,7 @@ php-json-minify
 ==============
 
 [![Packagist version](https://img.shields.io/packagist/v/t1st3/php-json-minify.svg)](https://packagist.org/packages/t1st3/php-json-minify)
-[![Build Status](https://img.shields.io/travis/T1st3/php-json-minify.svg)](https://travis-ci.org/T1st3/php-json-minify)
+[![Build Status](https://img.shields.io/travis/t1st3/php-json-minify.svg)](https://travis-ci.org/t1st3/php-json-minify)
 [![Dependency Status](https://www.versioneye.com/user/projects/550b4d4aa80b5fba79000153/badge.svg?style=flat)](https://www.versioneye.com/user/projects/550b4d4aa80b5fba79000153)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/t1st3/php-json-minify.svg)](http://isitmaintained.com/project/t1st3/php-json-minify "Percentage of issues still open")
 
@@ -101,7 +101,7 @@ $b->printMin();
 Credits
 --------------
 
-php-json-minify was initiated with [generator-composer](https://github.com/T1st3/generator-composer), a [Yeoman](http://yeoman.io) generator that builds a PHP Composer project.
+php-json-minify was initiated with [generator-composer](https://github.com/t1st3/generator-composer), a [Yeoman](http://yeoman.io) generator that builds a PHP Composer project.
 
 This project is based on [JSON.minify](https://github.com/getify/JSON.minify) by [Kyle Simspon](https://github.com/getify), which is released under the MIT license.
 
@@ -115,5 +115,5 @@ This project uses the following as development dependencies:
 License
 --------------
 
-[License](https://github.com/T1st3/php-json-minify/blob/master/LICENSE.md)
+[License](https://github.com/t1st3/php-json-minify/blob/master/LICENSE.md)
 
