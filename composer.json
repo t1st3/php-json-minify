@@ -26,5 +26,10 @@
     "phpdocumentor/phpdocumentor": "2.*",
     "phpunit/phpunit": "5.*",
     "sebastian/phpcpd": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "t1st3\\": "src/t1st3/"
+    }
   }
 }
