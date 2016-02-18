@@ -10,12 +10,9 @@ php-json-minify
 About
 --------------
 
-This JSON minifier written in PHP is based on the [JSON.minify](https://github.com/getify/JSON.minify) script by [Kyle Simspon](https://github.com/getify).
+This JSON minifier written in PHP is based on the [PHP part of JSON.minify](https://github.com/getify/JSON.minify/tree/php) script by [Kyle Simspon](https://github.com/getify). This project being functional entirely relies on Kyle's work: this project basically wraps Kyle's script in a class, and adds some fancy fashion to that class, such as publication on [Packagist](https://packagist.org) for availability with [Composer](https://getcomposer.org/) and documentation generated with [PhpDocumentor](http://phpdoc.org). See original author's [blog post](http://blog.getify.com/json-comments/) if you want to know more.
 
-This minifier also removes comments from JSON. While the authors of php-json-minify and JSON.minify do not encourage the use of comments in JSON, they are glad to provide you a way to remove those comments anyway! 
-See original author's [blog post](http://blog.getify.com/json-comments/) if you want to know more.
-
-
+This minifier also removes comments from JSON. While the authors of `php-json-minify` and `JSON.minify` do not encourage the use of comments in JSON, they are glad to provide you a way to remove those comments anyway! 
 
 
 Build dependencies
