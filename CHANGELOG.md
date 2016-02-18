@@ -1,6 +1,12 @@
 ## Change Log
 
+### 0.6.0 (2016/02/18 20:53 +00:00)
+- [76a7443](https://github.com/t1st3/php-json-minify/commit/76a74438a6eb82ba81f8f8c18d8c83a13d34855f) docs: more info about this project (@t1st3)
+- [#6](https://github.com/t1st3/php-json-minify/pull/6) Add t1st3 namespace to composer's psr-4 autoload section (@pawel-damasiewicz)
+- [43a82de](https://github.com/t1st3/php-json-minify/commit/43a82de84550c66bbf95f38a1d673629542a6aef) add: t1st3 namespace to composer's psr-4 autoload section (@pawel-damasiewicz)
+
 ### 0.5.0 (2016/02/04 21:11 +00:00)
+- [9abb959](https://github.com/t1st3/php-json-minify/commit/9abb959939c329111c90b970d037c8dc26adf24a) chore: v0.5.0 (@t1st3)
 - [2564adc](https://github.com/t1st3/php-json-minify/commit/2564adc288d5cb595f510b2f27a77601a67f6b1e) chore: replace T1st3 with t1st3 (@t1st3)
 - [#5](https://github.com/t1st3/php-json-minify/pull/5) chore(package): update grunt-phplint to version 0.0.8 (@T1st3)
 - [8113699](https://github.com/t1st3/php-json-minify/commit/81136994c0ccd89c0753ce96979588a774f5bff7) chore(package): update grunt-phplint to version 0.0.8 (@greenkeeperio-bot)
