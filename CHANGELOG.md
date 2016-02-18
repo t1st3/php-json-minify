@@ -1,6 +1,7 @@
 ## Change Log
 
 ### 0.6.0 (2016/02/18 20:53 +00:00)
+- [1fc945c](https://github.com/t1st3/php-json-minify/commit/1fc945c318eecdd78b68551b880f66be0636007f) chore: v0.6.0 (@t1st3)
 - [76a7443](https://github.com/t1st3/php-json-minify/commit/76a74438a6eb82ba81f8f8c18d8c83a13d34855f) docs: more info about this project (@t1st3)
 - [#6](https://github.com/t1st3/php-json-minify/pull/6) Add t1st3 namespace to composer's psr-4 autoload section (@pawel-damasiewicz)
 - [43a82de](https://github.com/t1st3/php-json-minify/commit/43a82de84550c66bbf95f38a1d673629542a6aef) add: t1st3 namespace to composer's psr-4 autoload section (@pawel-damasiewicz)
