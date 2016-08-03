@@ -15,6 +15,29 @@ This JSON minifier written in PHP is based on the [PHP part of JSON.minify](http
 This minifier also removes comments from JSON. While the authors of `php-json-minify` and `JSON.minify` do not encourage the use of comments in JSON, they are glad to provide you a way to remove those comments anyway! 
 
 
+Usage
+--------------
+
+```
+<?php
+require_once(dirname(__FILE__) . '/src/t1st3/JSONMin/JSONMin.php');
+use t1st3\JSONMin\JSONMin as jsonMin;
+
+// Use static method
+$a = jsonMin::minify('{"a": "b"}');
+echo $a;
+
+// get the minified JSON in a string
+$b = new jsonMin('{"c": "d"}');
+echo $b->getMin();
+
+// prints the minifed JSON
+$c = new jsonMin('{"e": "f"}');
+$b->printMin();
+?>
+```
+
+
 Build dependencies
 --------------
 
@@ -71,30 +94,6 @@ The build process will run the following tasks:
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 
-Usage
---------------
-
-```
-<?php
-require_once(dirname(__FILE__) . '/src/t1st3/JSONMin/JSONMin.php');
-use t1st3\JSONMin\JSONMin as jsonMin;
-
-// Use static method
-$a = jsonMin::minify('{"a": "b"}');
-echo $a;
-
-// get the minified JSON in a string
-$b = new jsonMin('{"c": "d"}');
-echo $b->getMin();
-
-// prints the minifed JSON
-$c = new jsonMin('{"e": "f"}');
-$b->printMin();
-?>
-```
-
-
-
 Credits
 --------------
 
@@ -112,5 +111,4 @@ This project uses the following as development dependencies:
 License
 --------------
 
-[License](https://github.com/t1st3/php-json-minify/blob/master/LICENSE.md)
-
+[License](https://github.com/t1st3/php-json-minify/blob/master/license)
