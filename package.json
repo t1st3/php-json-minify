@@ -8,7 +8,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 4"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
