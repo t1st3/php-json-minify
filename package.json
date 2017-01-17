@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-phplint": "0.0.8",
+    "grunt-phplint": "0.1.0",
     "grunt-phpunit": "^0.3.6",
     "grunt-shell": "^2.0.0",
     "grunt-version": "^1.1.1",
