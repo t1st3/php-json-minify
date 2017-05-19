@@ -1,6 +1,8 @@
 php-json-minify
 ==============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/t1st3/php-json-minify.svg)](https://greenkeeper.io/)
+
 [![Packagist version](https://img.shields.io/packagist/v/t1st3/php-json-minify.svg)](https://packagist.org/packages/t1st3/php-json-minify)
 [![Build Status](https://img.shields.io/travis/t1st3/php-json-minify.svg)](https://travis-ci.org/t1st3/php-json-minify)
 [![Dependency Status](https://www.versioneye.com/user/projects/550b4d4aa80b5fba79000153/badge.svg?style=flat)](https://www.versioneye.com/user/projects/550b4d4aa80b5fba79000153)
