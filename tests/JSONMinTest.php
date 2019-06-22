@@ -4,10 +4,20 @@ use t1st3\JSONMin\JSONMin as jsonMin;
 
 class JSONMinTest extends PHPUnit_Framework_TestCase
 {
+  public function provideJson()
+  {
+      yield [
+          '{"a": "b"}',
+          '{"a":"b"}',
+      ];
+  }
 
-  public function testMinifies () {
-    $a = jsonMin::minify('{"a": "b"}');
-    $this->assertEquals('{"a":"b"}', $a);
+  /**
+   * @dataProvider provideJson
+   */
+  public function testMinifies ($json, $expectedResult) {
+    $a = jsonMin::minify($json);
+    $this->assertEquals($expectedResult, $a);
   }
 
 }
