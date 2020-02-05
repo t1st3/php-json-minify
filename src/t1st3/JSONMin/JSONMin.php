@@ -122,6 +122,9 @@ class JSONMin {
         $new_str[] = $tmp[0];
       }
     }
+    if (!isset($rc)) {
+        $rc = $json;
+    }
     $new_str[] = $rc;
     return implode("",$new_str);
   }
