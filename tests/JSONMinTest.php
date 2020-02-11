@@ -1,8 +1,10 @@
 <?php
 require_once(dirname(dirname(__FILE__)) . '/src/t1st3/JSONMin/JSONMin.php');
+
+use PHPUnit\Framework\TestCase;
 use t1st3\JSONMin\JSONMin as jsonMin;
 
-class JSONMinTest extends PHPUnit_Framework_TestCase
+class JSONMinTest extends TestCase
 {
   public function provideJson()
   {

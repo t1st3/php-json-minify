@@ -24,7 +24,7 @@
   },
   "require-dev": {
     "phpdocumentor/phpdocumentor": "2.*",
-    "phpunit/phpunit": "5.*",
+    "phpunit/phpunit": "^7 || ^6 || ^5",
     "sebastian/phpcpd": "2.*"
   },
   "autoload": {

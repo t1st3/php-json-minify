@@ -2,10 +2,14 @@ language: php
 php:
   - 5.6
   - 7.0
+  - 7.1
+  - 7.2
+  - 7.3
+  - 7.4
 
 before_script:
   - wget http://getcomposer.org/composer.phar
   - php composer.phar install
   - npm install
 
-script: phpunit --configuration ./travis-ci.xml
+script: ./vendor/bin/phpunit --configuration ./travis-ci.xml
