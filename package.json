@@ -15,7 +15,7 @@
     "grunt-phplint": "0.1.0",
     "grunt-phpunit": "^0.3.6",
     "grunt-shell": "^3.0.0",
-    "grunt-version": "^1.1.1",
+    "grunt-version": "^2.0.0",
     "load-grunt-tasks": "^5.0.0",
     "time-grunt": "^2.0.0"
   }
